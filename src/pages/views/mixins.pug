@@ -1,0 +1,12 @@
+mixin flag(url,image, note)
+    a(href= url) 
+        img(src= image, alt= note)
+mixin menuSub(url,name)
+    ul.menu--sub 
+        li 
+            a(href= url)= name
+mixin menu_cap2(url,...items)
+     ul.menu2 
+        each item in items
+            li
+                a(href= url)= item 

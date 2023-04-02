@@ -1,9 +1,40 @@
 section.header#header 
     .container.header__container 
-        nav
+        nav.header__nav
             .header__logo 
                 a(href="/src/pages/index.html") 
                     img(src="/src/img/LOGO.png", alt="Highlands Coffee")
             .header__menu 
-                .header__menu--top 
-                    input(type="text", name="" placeholder="Từ Khóa")
+                .header__menu--top
+                    .header__menu--top-input 
+                        input(type="text", name="" placeholder="Từ Khóa")
+                        <i class="icon bi bi-search"></i>
+                    .header__menu--top-language
+                        .header__menu--top-language-image 
+                            +flag('#','/src/img/vn.jpg','VN')
+                        .header__menu--top-language-image 
+                            +flag('#','/src/img/flag_en.jpg','EN')
+                .header__menu--bottom 
+                    nav.header__menu--bottom-NAV
+                       ul.menu 
+                            each val in [{href:"/",title:"Quán cà phê"},{href:"/",title:"Thực đơn"},{href:"/",title:"Tin tức"},{href:"/",title:"Cộng Đồng"},{href:"/",title:"Về chúng tôi"},{href:"/",title:"Nghề nghiệp"},{href:"/",title:"Mua Ngay"}]
+                                li.menu-item
+                                    a.menu-link(href=val.href)= val.title     
+                                    if(val.title=="Thực đơn")
+                                        .menuMega
+                                            .container 
+                                                .row 
+                                                    .col1 
+                                                        ul.dropdown  
+                                                            each item in [{href:'/',title:'Ca phe'},{href:'/',title:'FREEZE'},{href:'/',title:'TRÀ'},{href:'/',title:'Khác'}]
+                                                                li.menu-dropdown 
+                                                                    a.menu-dropdown-link(href=item.href)= item.title
+                                                                    if(item.title=="Ca phe")
+                                                                        +menu_cap2('#','Cà Phê Phin','PhinDi','Cà Phê Espresso')
+                                                                    else if(item.title=="FREEZE")
+                                                                        +menu_cap2('#','Freeze Cà Phê Phin','Freeze Không Cà Phê')
+                                                                    else if(item.title=="TRÀ")
+                                                                         +menu_cap2('#','Trà Sen Vàng Mới','Trà Thạch Đào','Trà Thanh Đào','Trà Thạch Vải','TRÀ NHIỆT ĐỚI (MỚI!)')
+                                                                    else if(item.title=='Khác')
+                                                                        +menu_cap2('#','Bánh Ngọt','Merchandise','Cà Phê Đóng Gói','Thực Đơn Giao Hàng')
+                                                    .col2 

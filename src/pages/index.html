@@ -7,21 +7,92 @@
     <title>Highlands Coffee</title>
     <link rel="shortcut icon" href="/src/img/logo.webp" type="image/x-icon">
     <link rel="stylesheet" href="/src/css/app.css">
-  </head>
-  <body> 
-    <div class="warrper">
-      <section class="header" id="header"> 
-        <div class="container header__container"> 
-          <nav>
-            <div class="header__logo"> <a href="/src/pages/index.html"> <img src="/src/img/LOGO.png" alt="Highlands Coffee"></a></div>
-            <div class="header__menu"> 
-              <div class="header__menu--top"> 
-                <input type="text" name="" placeholder="Từ Khóa">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="/src/js/app.js"> </script>
+    <body> 
+      <div class="warrper">
+        <section class="header" id="header"> 
+          <div class="container header__container"> 
+            <nav class="header__nav">
+              <div class="header__logo"> <a href="/src/pages/index.html"> <img src="/src/img/LOGO.png" alt="Highlands Coffee"></a></div>
+              <div class="header__menu"> 
+                <div class="header__menu--top">
+                  <div class="header__menu--top-input"> 
+                    <input type="text" name="" placeholder="Từ Khóa"><i class="icon bi bi-search"></i>
+                  </div>
+                  <div class="header__menu--top-language">
+                    <div class="header__menu--top-language-image"> <a href="#"> <img src="/src/img/vn.jpg" alt="VN"/></a>
+                    </div>
+                    <div class="header__menu--top-language-image"> <a href="#"> <img src="/src/img/flag_en.jpg" alt="EN"/></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="header__menu--bottom"> 
+                  <nav class="header__menu--bottom-NAV">
+                    <ul class="menu"> 
+                      <li class="menu-item"><a class="menu-link" href="/">Quán cà phê</a>
+                      </li>
+                      <li class="menu-item"><a class="menu-link" href="/">Thực đơn</a>
+                        <div class="menuMega">
+                          <div class="container"> 
+                            <div class="row"> 
+                              <div class="col1"> 
+                                <ul class="dropdown"> 
+                                  <li class="menu-dropdown"> <a class="menu-dropdown-link" href="/">Ca phe</a>
+                                    <ul class="menu2"> 
+                                      <li><a href="#">Cà Phê Phin</a></li>
+                                      <li><a href="#">PhinDi</a></li>
+                                      <li><a href="#">Cà Phê Espresso</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="menu-dropdown"> <a class="menu-dropdown-link" href="/">FREEZE</a>
+                                    <ul class="menu2"> 
+                                      <li><a href="#">Freeze Cà Phê Phin</a></li>
+                                      <li><a href="#">Freeze Không Cà Phê</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="menu-dropdown"> <a class="menu-dropdown-link" href="/">TRÀ</a>
+                                    <ul class="menu2"> 
+                                      <li><a href="#">Trà Sen Vàng Mới</a></li>
+                                      <li><a href="#">Trà Thạch Đào</a></li>
+                                      <li><a href="#">Trà Thanh Đào</a></li>
+                                      <li><a href="#">Trà Thạch Vải</a></li>
+                                      <li><a href="#">TRÀ NHIỆT ĐỚI (MỚI!)</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="menu-dropdown"> <a class="menu-dropdown-link" href="/">Khác</a>
+                                    <ul class="menu2"> 
+                                      <li><a href="#">Bánh Ngọt</a></li>
+                                      <li><a href="#">Merchandise</a></li>
+                                      <li><a href="#">Cà Phê Đóng Gói</a></li>
+                                      <li><a href="#">Thực Đơn Giao Hàng</a></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="col2"> </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="menu-item"><a class="menu-link" href="/">Tin tức</a>
+                      </li>
+                      <li class="menu-item"><a class="menu-link" href="/">Cộng Đồng</a>
+                      </li>
+                      <li class="menu-item"><a class="menu-link" href="/">Về chúng tôi</a>
+                      </li>
+                      <li class="menu-item"><a class="menu-link" href="/">Nghề nghiệp</a>
+                      </li>
+                      <li class="menu-item"><a class="menu-link" href="/">Mua Ngay</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
               </div>
-            </div>
-          </nav>
-        </div>
-      </section>
-    </div>
-  </body>
+            </nav>
+          </div>
+        </section>
+      </div>
+    </body>
+  </head>
 </html>

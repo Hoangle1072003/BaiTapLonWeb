@@ -1,3 +1,4 @@
+include ./views/mixins
 doctype html
 html(lang="en")
     head
@@ -7,7 +8,11 @@ html(lang="en")
         title Highlands Coffee
         link(rel="shortcut icon", href="/src/img/logo.webp", type="image/x-icon")
         link(rel="stylesheet", href="/src/css/app.css")
-        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css")    body 
-        .warrper
-            include views/header
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css")  
+        script(src="/src/js/app.js") 
+        body 
+            .warrper
+                include views/header
+                
+                //- include views/banner
                     
