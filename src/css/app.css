@@ -335,4 +335,8 @@ video {
   animation-duration: 1.5s;
 }
 
+.bannerHome__img img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=app.css.map */
