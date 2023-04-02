@@ -1,0 +1,27 @@
+section.mainbot#mainbot 
+    .mainbot__row 
+        .mainbot__left 
+            .mainbot__left--text 
+                .mainbot__left--text-title 
+                    h1 Quán Mới
+                .mainbot__left--text-content 
+                    h1 721 Huỳnh Tấn Phát
+                    p 721 HUỲNH TẤN PHÁT, PHƯỜNG PHÚ NHUẬN, QUẬN 7, TP. HỒ CHÍ MINH
+                    span Tìm đường
+                    <i class="bi bi-chevron-right"></i>
+        .mainbot__right 
+            .mainbot__right--heading 
+                .mainbot__right--heading-title 
+                    h1 Tin mới nhất
+                .mainbot__right--heading-see 
+                    a(href="#") xem toàn bộ 
+                    <i class="bi bi-chevron-right"></i>
+            .mainbot__right--list 
+                +mainbot('#','/src/img/mainbot_right1.png','Mạnh mẽ làm điều mình yêu','06/03/2023')
+                +mainbot('#','/src/img/mainbot_right2.png','APP NÀY LÀ CỦA CHÚNG MÌNH','10/01/2023')
+                +mainbot('#','/src/img/mainbot_right3.jpg','ĐÓN TẾT NÀY THẬT KHÁC LẠ TẠI HIGHLANDS','28/12/2023')
+            .mainbot__right--input 
+                input(type="email", name="" placeholder="Nhập email của bạn để nhận thông tin...")
+                .mainbot__right--btn
+                    <i class="uil uil-message"></i>
+                    a(href="#") Gửi

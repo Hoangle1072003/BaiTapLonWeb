@@ -13,3 +13,17 @@ mixin menu_cap2(url,...items)
 mixin slideShow(address,name)
     .mySlides.fade
         img(src= address, alt= name)
+mixin mainbot(url,image,title,date)
+    .mainbot__right--item 
+        .mainbot__right--img 
+            a(href= url) 
+                img(src= image, alt="")
+        .mainbot__right--text 
+            .mainbot__right--text-title 
+                a(href= url) 
+                    h1= title
+            .mainbot__right--text-date 
+                .mainbot__right-text-date-icon 
+                    <i class="bi bi-gift"></i>
+                .mainbot__right-text-date-mayDay 
+                    span= date

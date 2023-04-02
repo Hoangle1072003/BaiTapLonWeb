@@ -339,4 +339,121 @@ video {
   width: 100%;
 }
 
+.mainbot__row {
+  display: flex;
+}
+.mainbot__left {
+  flex: 0 1 50%;
+  background: url(/src//img//mainbot1.jpg);
+  padding: 55px 40px 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainbot__left--text {
+  color: #fff;
+}
+.mainbot__left--text-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.mainbot__left--text-content {
+  max-width: 300px;
+  text-align: right;
+  margin-left: auto;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.mainbot__left--text-content span {
+  font-weight: 600;
+  cursor: pointer;
+}
+.mainbot__right {
+  flex: 0 1 50%;
+  background: url(/src//img//mainbot2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 55px 40px 30px;
+}
+.mainbot__right--heading {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+  max-width: 500px;
+}
+.mainbot__right--heading-title h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #53382c;
+  text-transform: uppercase;
+}
+.mainbot__right--heading-see a {
+  color: #53382c;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.mainbot__right--heading-see a:hover {
+  color: #b22830;
+}
+.mainbot__right--heading-see i {
+  font-size: 0.7rem;
+  font-weight: 700 !important;
+}
+.mainbot__right--img img {
+  width: 80px;
+  height: 100%;
+  object-fit: cover;
+}
+.mainbot__right--item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+.mainbot__right--text-title {
+  margin-bottom: 0.5rem;
+}
+.mainbot__right--text-title h1 {
+  color: #53382c;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.mainbot__right--text-title h1:hover {
+  color: #b22830;
+}
+.mainbot__right--text-date {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.mainbot__right--input {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.mainbot__right--input input {
+  all: unset;
+  width: 300px;
+  background-color: #fff;
+  height: 30px;
+  padding-left: 1rem;
+  font-size: 0.7rem;
+}
+.mainbot__right--btn {
+  padding: 0.4rem 2rem;
+  background-color: #53382c;
+  color: #fff;
+}
+.mainbot__right--btn a {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=app.css.map */
