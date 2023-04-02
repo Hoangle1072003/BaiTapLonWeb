@@ -1,6 +1,37 @@
-.box{
-    height: 500px;
-    width: 1000px;
-    background-color: $color-dard;
-    display: flex;
+.banner {
+    position: relative;
+}
+
+.dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+
+.mySlides {
+    position: relative;
+}
+.mySlides img{
+    width: 100%;
+}
+.radio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: -55px;
+    transform: translate(-50%, 50%);
+}
+
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s; 
+    animation-name: fade;
+    animation-duration: 1.5s;
 }

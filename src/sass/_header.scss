@@ -86,6 +86,7 @@
     background: #53382c;
     padding: 15px 0;
     display: none;
+    z-index: 1000;
 }
 .menuMega > .container{
     max-width: 1000px !important;
@@ -99,6 +100,7 @@
 }
 .col2{
     flex: 0 1 30%;
+    margin-left: 3rem;
 }
 .dropdown >li >a{
     color: $color-yellow;
@@ -117,10 +119,46 @@
 .menu2 li a{
     color: $color-white;
     font-size: 0.7rem;
+    animation: move 3s ease-in;
 }
 .menu2 li a:hover{
     color: $color-yellow;
 }
 .menu-dropdown{
     text-align: center;
+}
+
+
+.bannerMenu{
+    padding: 15px 15px;
+    background: url(/src//img//bgmenu.jpg) no-repeat center center;
+    background-size: cover;
+    width: 50%;
+    &__txt{
+        margin-bottom: 25px;
+        a{
+            font-size: 1.6rem;
+            display: block;
+            font-weight: bold;
+            color: #f1bc7a;
+            font-family: 'fontkhachhang';
+            font-weight: normal !important;
+            padding-right: 20%;
+            font-weight: 800 !important;
+            &:hover{
+                color: $color-white;
+            }
+        }
+    }
+    &__img{
+        width: 70%;
+    }
+}
+@keyframes move{
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
 }

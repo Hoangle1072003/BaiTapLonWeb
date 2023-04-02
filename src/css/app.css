@@ -202,6 +202,7 @@ video {
   background: #53382c;
   padding: 15px 0;
   display: none;
+  z-index: 1000;
 }
 
 .menuMega > .container {
@@ -219,6 +220,7 @@ video {
 
 .col2 {
   flex: 0 1 30%;
+  margin-left: 3rem;
 }
 
 .dropdown > li > a {
@@ -240,6 +242,7 @@ video {
 .menu2 li a {
   color: #fff;
   font-size: 0.7rem;
+  animation: move 3s ease-in;
 }
 
 .menu2 li a:hover {
@@ -250,6 +253,40 @@ video {
   text-align: center;
 }
 
+.bannerMenu {
+  padding: 15px 15px;
+  background: url(/src//img//bgmenu.jpg) no-repeat center center;
+  background-size: cover;
+  width: 50%;
+}
+.bannerMenu__txt {
+  margin-bottom: 25px;
+}
+.bannerMenu__txt a {
+  font-size: 1.6rem;
+  display: block;
+  font-weight: bold;
+  color: #f1bc7a;
+  font-family: "fontkhachhang";
+  font-weight: normal !important;
+  padding-right: 20%;
+  font-weight: 800 !important;
+}
+.bannerMenu__txt a:hover {
+  color: #fff;
+}
+.bannerMenu__img {
+  width: 70%;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
 .warrper {
   max-width: 1920px;
   margin: 0 auto;
@@ -261,11 +298,41 @@ video {
   padding: 0 15px;
 }
 
-.box {
-  height: 500px;
-  width: 1000px;
-  background-color: #000;
-  display: flex;
+.banner {
+  position: relative;
+}
+
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.mySlides {
+  position: relative;
+}
+
+.mySlides img {
+  width: 100%;
+}
+
+.radio {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: -55px;
+  transform: translate(-50%, 50%);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 /*# sourceMappingURL=app.css.map */
