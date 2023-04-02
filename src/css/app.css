@@ -456,4 +456,31 @@ video {
   font-weight: 600;
 }
 
+.footer {
+  background-color: #53382c;
+  padding: 1rem 0;
+}
+.footer__container {
+  display: flex;
+  gap: 1rem;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.footer__socialFoot a {
+  color: #fff;
+  margin-right: 0.5rem;
+}
+.footer__linkFooter {
+  font-size: 0.8rem;
+}
+.footer__linkFooter a {
+  color: #fff;
+}
+.footer__linkFooter a span {
+  margin-left: 0.5rem;
+}
+.footer__linkFooter a:hover {
+  color: #f1bc7a;
+}
+
 /*# sourceMappingURL=app.css.map */

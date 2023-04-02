@@ -1,0 +1,42 @@
+.footer{
+    background-color: $color-dark__brown;
+    padding: 1rem 0;
+    &__container{
+        display: flex;
+        gap: 1rem;
+        color: $color-white;
+        font-size: 0.9rem;
+
+    }
+    &__socialFoot{
+        a{
+            color: $color-white;
+            margin-right: 0.5rem;   
+            &:hover{
+               
+            }
+        }
+    }
+    &__linkFooter{
+        font-size: 0.8rem;
+        a{
+            color: $color-white;
+            span{
+            margin-left: 0.5rem;
+            }
+            &:hover{
+                color: $color-yellow;
+            }
+        }
+    }
+}
+
+@mixin animate($animation,$duration,$method,$times){
+    animation: $animation $duration $method $times;
+}
+
+@mixin keyframes($name){
+    @keyframes #{$name}{
+        @content;
+    }
+}
