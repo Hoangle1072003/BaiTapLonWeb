@@ -27,3 +27,12 @@ mixin mainbot(url,image,title,date)
                     <i class="bi bi-gift"></i>
                 .mainbot__right-text-date-mayDay 
                     span= date
+mixin contentmenu(url,imageMenu,notes, tilte,desc,urlBtn,nameBtn)
+    .content__category--item 
+        .content__category--image 
+            a(href= url)
+                img(src= imageMenu, alt= notes) 
+        .content__category--caption
+            h2= tilte
+            p= desc
+            a(href= urlBtn)= nameBtn
