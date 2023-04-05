@@ -4,7 +4,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
 }
@@ -12,7 +12,6 @@
     font-size: 1rem;
     font-weight: 500;
     padding: .5rem 3rem;
-    border: .1rem solid $color-text__yellow;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -28,13 +27,17 @@
     &--item:first-child{
         background: url(/src//img//menu1.jpg);
         @include background_;
+       
+        
     }
     &--item:nth-child(2){
         background: url(/src//img//menu-FREEZE.jpg);
         @include background_;
         flex-direction: row;
+        text-align: right;
+       
     }
-    &--item:last-child{
+    &--item:nth-child(3){
         background: url(/src//img//Product_Tra_BG_Web_Banner.jpg);
         @include background_;
     }
@@ -44,14 +47,20 @@
             margin-left: auto;
         }
     }
-    &--caption:first-child{
-        color: $color-text__yellow;
+    
+    &--child-nth1{
+        color: $color-yellow;
         font-weight: 600;
         font-size: 1rem;
         line-height: 1.6;
         max-width: 500px;
         h2{
             font-size: 2.5rem !important;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:hover{
+                color: $color-text__yellow;
+            }
         }
         p{
             font-size: 0.9rem;
@@ -59,52 +68,71 @@
         }
         a{
             color: $color-text__yellow;
+            border: .1rem solid $color-text__yellow;
             @include text;
+            &:hover{
+                color: $color-text__yellow;
+                background-color: $color-sepia;
+                border-color: $color-sepia;
+            }
         }
     }
-    &--caption:nth-child(2){
-        color: $color-text-green ;
-        font-weight: 600;
-        font-size: 1rem;
-        line-height: 1.6;
-        max-width: 500px;
-        h2{
-            font-size: 2.5rem;
-        }
-        p{
-            font-size: 0.9rem;
-            margin: 1rem 0 2rem 0;
-        }
-        a{
-            @include text;
-            color: $color-text-green ;
-            border: .1rem solid $color-text-green ;
-        }
-    }
-    &--caption:last-child{
-        color: $color-white;
+    &--child-nth2{
+        color: $color-text-green;
         font-weight: 600;
         font-size: 1rem;
         line-height: 1.6;
         max-width: 500px;
         h2{
             font-size: 2.5rem !important;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:hover{
+                color: $color-sepia;
+            }
         }
         p{
             font-size: 0.9rem;
             margin: 1rem 0 2rem 0;
         }
         a{
+            color: $color-text-green;
+            border: .1rem solid $color-text-green;
             @include text;
-            color: $color-white;
-            border: .1rem solid $color-white;
             &:hover{
-                background-color: $color-sepia;
                 color: $color-white;
-                border: .1rem solid $color-danger;
-                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                background-color: $color-sepia;
+                border-color: $color-sepia;
+            }
+        }
+    }
+    &--child-nth3{
+        color: $color-text__yellow;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.6;
+        max-width: 500px;
+        h2{
+            font-size: 2.5rem !important;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:hover{
+                color: $color-danger;
+            }
+        }
+        p{
+            font-size: 0.9rem;
+            margin: 1rem 0 2rem 0;
+        }
+        a{
+            color: $color-text__yellow;
+            border: .1rem solid $color-text__yellow;
+            @include text;
+            &:hover{
+                color: $color-text__yellow;
+                background-color: $color-sepia;
+                border-color: $color-sepia;
             }
         }
     }
 }
-

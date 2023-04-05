@@ -430,7 +430,7 @@ video {
   background-position: center center;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
 }
@@ -440,18 +440,19 @@ video {
   background-position: center center;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
   flex-direction: row;
+  text-align: right;
 }
-.content__category--item:last-child {
+.content__category--item:nth-child(3) {
   background: url(/src//img//Product_Tra_BG_Web_Banner.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
 }
@@ -459,82 +460,104 @@ video {
   width: 400px;
   margin-left: auto;
 }
-.content__category--caption:first-child {
-  color: #faebd7;
+.content__category--child-nth1 {
+  color: #f1bc7a;
   font-weight: 600;
   font-size: 1rem;
   line-height: 1.6;
   max-width: 500px;
 }
-.content__category--caption:first-child h2 {
+.content__category--child-nth1 h2 {
   font-size: 2.5rem !important;
+  text-transform: uppercase;
+  cursor: pointer;
 }
-.content__category--caption:first-child p {
+.content__category--child-nth1 h2:hover {
+  color: #faebd7;
+}
+.content__category--child-nth1 p {
   font-size: 0.9rem;
   margin: 1rem 0 2rem 0;
 }
-.content__category--caption:first-child a {
+.content__category--child-nth1 a {
   color: #faebd7;
+  border: 0.1rem solid #faebd7;
   font-size: 1rem;
   font-weight: 500;
   padding: 0.5rem 3rem;
-  border: 0.1rem solid #faebd7;
   border-radius: 5px;
   cursor: pointer;
 }
-.content__category--caption:nth-child(2) {
+.content__category--child-nth1 a:hover {
+  color: #faebd7;
+  background-color: #882106;
+  border-color: #882106;
+}
+.content__category--child-nth2 {
   color: #006400;
   font-weight: 600;
   font-size: 1rem;
   line-height: 1.6;
   max-width: 500px;
 }
-.content__category--caption:nth-child(2) h2 {
-  font-size: 2.5rem;
+.content__category--child-nth2 h2 {
+  font-size: 2.5rem !important;
+  text-transform: uppercase;
+  cursor: pointer;
 }
-.content__category--caption:nth-child(2) p {
+.content__category--child-nth2 h2:hover {
+  color: #882106;
+}
+.content__category--child-nth2 p {
   font-size: 0.9rem;
   margin: 1rem 0 2rem 0;
 }
-.content__category--caption:nth-child(2) a {
-  font-size: 1rem;
-  font-weight: 500;
-  padding: 0.5rem 3rem;
-  border: 0.1rem solid #faebd7;
-  border-radius: 5px;
-  cursor: pointer;
+.content__category--child-nth2 a {
   color: #006400;
   border: 0.1rem solid #006400;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 3rem;
+  border-radius: 5px;
+  cursor: pointer;
 }
-.content__category--caption:last-child {
+.content__category--child-nth2 a:hover {
   color: #fff;
+  background-color: #882106;
+  border-color: #882106;
+}
+.content__category--child-nth3 {
+  color: #faebd7;
   font-weight: 600;
   font-size: 1rem;
   line-height: 1.6;
   max-width: 500px;
 }
-.content__category--caption:last-child h2 {
+.content__category--child-nth3 h2 {
   font-size: 2.5rem !important;
+  text-transform: uppercase;
+  cursor: pointer;
 }
-.content__category--caption:last-child p {
+.content__category--child-nth3 h2:hover {
+  color: #b22830;
+}
+.content__category--child-nth3 p {
   font-size: 0.9rem;
   margin: 1rem 0 2rem 0;
 }
-.content__category--caption:last-child a {
+.content__category--child-nth3 a {
+  color: #faebd7;
+  border: 0.1rem solid #faebd7;
   font-size: 1rem;
   font-weight: 500;
   padding: 0.5rem 3rem;
-  border: 0.1rem solid #faebd7;
   border-radius: 5px;
   cursor: pointer;
-  color: #fff;
-  border: 0.1rem solid #fff;
 }
-.content__category--caption:last-child a:hover {
+.content__category--child-nth3 a:hover {
+  color: #faebd7;
   background-color: #882106;
-  color: #fff;
-  border: 0.1rem solid #b22830;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-color: #882106;
 }
 
 /*# sourceMappingURL=app.css.map */

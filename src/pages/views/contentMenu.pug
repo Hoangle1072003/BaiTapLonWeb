@@ -1,6 +1,30 @@
 section.contentmenu#contentmenu 
     .content__category
        .content__category--list 
-            +contentmenu('#','/src/img/menu1_1.png','caphe','Cà Phê','Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.','#','Khám phá thêm')
-            +contentmenu('#','/src/img/HLC_New_logo_Products__FREEZE_TRA_XANH.png','FREEZE','FREEZE','Sảng khoái với thức uống đá xay phong cách Việt. Freeze là thức uống đá xay mát lạnh được pha chế từ những nguyên liệu thuần túy của Việt Nam.','#','Khám phá thêm')
-            +contentmenu('#','/src/img/HLC_New_logo_Products__TRA_SEN_VANG_CU_NANG.png','TRÀ','TRÀ','Hương vị tự nhiên, thơm ngon của Trà Việt với phong cách hiện đại tại Highlands Coffee sẽ giúp bạn gợi mở vị giác của bản thân và tận hưởng một cảm giác thật khoan khoái, tươi mới.','#','Khám phá thêm')
+            .content__category--item 
+                .content__category--image 
+                    a(href= "#")
+                         img(src= "/src/img/menu1_1.png", alt= "") 
+                .content__category--caption
+                    .content__category--child.content__category--child-nth1
+                        h2 Cà phê
+                        p Sự kết hợp hoàn hảo giữa hạt cà phê Robusta va Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế
+                        a(href= "#") Khám phá thêm
+            .content__category--item 
+                .content__category--image 
+                    a(href= "#")
+                         img(src= "/src/img/HLC_New_logo_Products__FREEZE_TRA_XANH.png", alt= "") 
+                .content__category--caption
+                    .content__category--child.content__category--child-nth2
+                        h2 FREEZE
+                        p Sảng khoái với thức uống đá xay phong cách Việt. Freeze là thức uống đá xay mát lạnh được pha chế từ những nguyên liệu thuần túy của Việt Nam.
+                        a(href= "#") Khám phá thêm
+            .content__category--item 
+                .content__category--image 
+                    a(href= "#")
+                         img(src= "/src/img/HLC_New_logo_Products__TRA_SEN_VANG_CU_NANG.png", alt= "") 
+                .content__category--caption
+                    .content__category--child.content__category--child-nth3
+                        h2 Trà
+                        p Hương vị tự nhiên, thơm ngon của Trà Việt với phong cách hiện đại tại Highlands Coffee sẽ giúp bạn gợi mở vị giác của bản thân và tận hưởng một cảm giác thật khoan khoái, tươi mới.
+                        a(href= "#") Khám phá thêm
