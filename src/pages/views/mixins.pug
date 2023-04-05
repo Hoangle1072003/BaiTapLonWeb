@@ -27,3 +27,14 @@ mixin mainbot(url,image,title,date)
                     <i class="bi bi-gift"></i>
                 .mainbot__right-text-date-mayDay 
                     span= date
+mixin  menucaphe(url,image,note,name,price)
+    .menucaphe__item
+        .menucaphe__item--img 
+            a(href= url) 
+                img(src= image, alt= note)
+        .menucaphe__item--name
+            .menucaphe__item--title 
+                h1= name
+            .menucaphe__item--price 
+                h1 gia: 
+                span= price
