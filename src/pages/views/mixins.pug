@@ -37,4 +37,26 @@ mixin  menucaphe(url,image,note,name,price)
                 h1= name
             .menucaphe__item--price 
                 h1 gia: 
-                span= price
+                span= price 
+mixin menuOthers(title,desc)
+    .menuOthers__heading 
+        .menuOthers__heading--title
+            h1= title
+        .menuOthers__heading--desc 
+            p= desc
+mixin heading(title)
+    .new__heading 
+        h1= title 
+mixin box(url,image,note,url2,name,date)
+    .box__item 
+        .box__item--img 
+            a(href= url) 
+                img(src= image, alt= note)
+        .box__item--title 
+            a(href= url2)
+                h1= name
+        .box__item--date 
+            .box__item--icon 
+                <i class="uil uil-calender"></i>
+            .box__item--newdate 
+                h1= date

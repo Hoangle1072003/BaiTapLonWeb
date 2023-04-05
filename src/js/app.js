@@ -1,3 +1,15 @@
+let loadmoreBtn = document.querySelector('#loading');
+let current = 3;
+loadmoreBtn.onclick =()=>{
+ let boxes = [...document.querySelectorAll('.new__public-container  .box__list .box__item ')];
+ for (var i =  current ; i < current + 3 ;i++){
+   boxes[i].style.display = 'inline-block';
+ }
+ current +=3 ;
+ if(current>= boxes.length){
+  loadmoreBtn.style.display= 'none';
+ }
+}
 // tat tab
 window.addEventListener('beforeunload', (event) => {
     event.preventDefault()
@@ -68,9 +80,4 @@ window.addEventListener('beforeunload', (event) => {
 
 
 
-const carousel = document.querySelector(".menucaphe__item")
-const dragging =(e)=>{
-  carousel.scrollLeft= e.pageX;
-}
 
- carousel.addEventListener("mousemove",dragging)

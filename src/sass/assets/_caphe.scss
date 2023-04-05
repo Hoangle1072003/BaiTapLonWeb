@@ -5,11 +5,15 @@
     padding-top: 5rem;
     &__heading {
         &--title{
+            cursor: pointer;
             font-size: 2.5rem;
             font-weight: 700;
             line-height: 1.6;
             color: $color-dark__brown;
             text-transform: uppercase;
+            &:hover{
+                color: $color-sepia;
+            }
         }
         &--desc{
             margin: 0.5rem 0;
@@ -42,22 +46,27 @@ grid-template-columns: unset;
 max-width: 650px;
 text-align: center;
 // overflow-x: hidden;
+margin-bottom: 5rem;
+padding-bottom: 2rem;
 }
 .menucaphe__item::-webkit-scrollbar {
   display: none;
 }
 .menucaphe__item  {
     scroll-snap-align: start;
-    // box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     &--img{
         max-width: 200px;
-    margin: 0 auto;
-    border:  solid .1rem #eeeeee;
-    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin: 0 auto;
+        border:  solid .1rem #eeeeee;
+        overflow: hidden;
         img{
             width: 170px;
             margin: 0 auto;
             height: 170px;
+            &:hover{
+                transform: scale(1.05);
+                overflow: hidden;
+            }
         }
     }
     &--name{
@@ -70,7 +79,10 @@ text-align: center;
             font-weight: 600;
             font-size: 1.1rem;
             line-height: 1.6;
-
+            cursor: pointer;
+            &:hover{
+                color: $color-sepia;
+            }
         }
     }
     &--price{
@@ -93,3 +105,34 @@ text-align: center;
 
 
 
+.menuOthers{
+    &__heading{
+        max-width: 650px;
+        &--title{
+            h1{
+                text-transform: uppercase;
+                font-size: 1.7rem;
+                font-weight: 700;
+                line-height: 1.6;
+                color: $color-brown;
+                &:hover{
+                    color: $color-sepia;
+                    cursor: pointer;
+                }
+            }
+        }
+        &--desc{
+            margin: 1rem 0;
+            p{
+                font-size: .8rem;
+                font-weight: 500;
+                color: $color-brown;
+                line-height: 1.6;
+                letter-spacing: .05;
+            }
+        }
+    }
+}
+.menucaphe__list{
+    margin-bottom: 5rem;
+}
