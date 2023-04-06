@@ -8,7 +8,7 @@
         text-transform: uppercase;
     }
 }
-.new__public-container {
+.new__public-container,.public__container   {
     max-width: 1000px;
 }
 
@@ -55,6 +55,15 @@
     font-weight: 500;
     color: $color-brown;
     font-size: 0.7rem;
+    margin-top: auto;
+    flex-shrink: 0;
+  }
+  &--title{
+    flex: 1;
+  }
+  &--bot{
+    display: flex;
+    flex-direction: column;
   }
 }
 .load{
