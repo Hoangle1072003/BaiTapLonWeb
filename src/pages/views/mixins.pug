@@ -45,7 +45,7 @@ mixin menuOthers(title,desc)
         .menuOthers__heading--desc 
             p= desc
 mixin heading(title)
-    .new__heading 
+    .new__heading
         h1= title 
 mixin box(url,image,note,url2,name,date)
     .box__item 
@@ -61,3 +61,19 @@ mixin box(url,image,note,url2,name,date)
                     <i class="uil uil-calender"></i>
                 .box__item--newdate 
                     h1= date
+mixin aboutUS(title,desc,cap,url,btn,urlIMG,image,note)
+    .about__row.b1.b2.b3
+        .about__caption 
+            .about__caption--content 
+                .about__caption--heading 
+                    h1= title
+                .about__caption--desc 
+                    h1= desc 
+                .about__caption--cap 
+                    p= cap
+                .about__caption--btn 
+                    a(href= url)= btn
+        .about__img
+            .about__img--images
+                a(href= urlIMG) 
+                    img(src= image, alt= note)

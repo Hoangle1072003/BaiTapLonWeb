@@ -17,9 +17,9 @@ section.header#header
                 .header__menu--bottom 
                     nav.header__menu--bottom-NAV
                        ul.menu 
-                            each val in [{href:"/",title:"Quán cà phê"},{href:"/src/pages/menu.html",title:"Thực đơn"},{href:"/src/pages/news.html",title:"Tin tức"},{href:"/src/pages/public.html",title:"Cộng Đồng"},{href:"/",title:"Về chúng tôi"},{href:"/",title:"Nghề nghiệp"},{href:"/",title:"Mua Ngay"}]
+                            each val in [{href:"/",title:"Quán cà phê"},{href:"/src/pages/menu.html",title:"Thực đơn"},{href:"/src/pages/news.html",title:"Tin tức"},{href:"/src/pages/public.html",title:"Cộng Đồng"},{href:"/src/pages/aboutUS.html",title:"Về chúng tôi"},{href:"/",title:"Nghề nghiệp"},{href:"/",title:"Mua Ngay"}]
                                 li.menu-item
-                                    a.menu-link(href=val.href)= val.title     
+                                    a(href=val.href).menu-link= val.title     
                                     if(val.title=="Thực đơn")
                                         .menuMega
                                             .container 
@@ -43,4 +43,20 @@ section.header#header
                                                                 a(href="#") Phin Sữa Đá Đậm Đà Chất Phin! 29.000đ
                                                             .bannerMenu__img 
                                                                 a(href="#")
-                                                                    img(src="/src/img/banner.png", alt="")  
+                                                                    img(src="/src/img/banner.png", alt="")
+                                    if(val.title=="Về chúng tôi")
+                                        .menuMega
+                                            .container 
+                                                .row 
+                                                    .col1.about1 
+                                                        ul.dropdown  
+                                                            each item in [{href:'/',title:'Nguồn gốc'},{href:'/',title:'Dịch vụ'},{href:'/',title:'Nghề nghiệp'}]
+                                                                li.menu-dropdown 
+                                                                    a.menu-dropdown-link(href=item.href)= item.title
+                                                    .col2.about2
+                                                        .bannerMenu 
+                                                            .bannerMenu__txt 
+                                                                a(href="#") Thương Hiệu bắt nguồn từ cà phê việt!
+                                                            .bannerMenu__img 
+                                                                a(href="#").bannerMenu__image
+                                                                    img(src="/src/img/menu2.png", alt="")

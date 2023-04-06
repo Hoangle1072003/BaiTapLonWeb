@@ -1,3 +1,13 @@
+const navLink = document.querySelectorAll('.menu-link')
+const windowPathName  = window.location.pathname
+navLink.forEach(navLinks =>{
+  const nalinkPathname = new URL(navLinks.href).pathname
+  if(windowPathName === nalinkPathname){
+    navLinks.classList.add('active') 
+  }
+})
+
+
 let loadmoreBtn = document.querySelector('#loading');
 let current = 3;
 loadmoreBtn.onclick =()=>{
@@ -10,6 +20,7 @@ loadmoreBtn.onclick =()=>{
   loadmoreBtn.style.display= 'none';
  }
 }
+
 // tat tab
 window.addEventListener('beforeunload', (event) => {
     event.preventDefault()
@@ -79,5 +90,13 @@ window.addEventListener('beforeunload', (event) => {
   }
 
 
+
+
+
+  const select = document.querySelector('.new__heading')
+  function change() {
+      select.style.color ='#fff'
+  }
+  select.addEventListener('mouseover',change)
 
 
