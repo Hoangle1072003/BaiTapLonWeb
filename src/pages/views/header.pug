@@ -50,13 +50,13 @@ section.header#header
                                                 .row 
                                                     .col1.about1 
                                                         ul.dropdown  
-                                                            each item in [{href:'/',title:'Nguồn gốc'},{href:'/',title:'Dịch vụ'},{href:'/',title:'Nghề nghiệp'}]
+                                                            each item in [{href:'/src/pages/origin.html',title:'Nguồn gốc'},{href:'/',title:'Dịch vụ'},{href:'/src/pages/job.html',title:'Nghề nghiệp'}]
                                                                 li.menu-dropdown 
                                                                     a.menu-dropdown-link(href=item.href)= item.title
                                                     .col2.about2
                                                         .bannerMenu 
                                                             .bannerMenu__txt 
-                                                                a(href="#") Thương Hiệu bắt nguồn từ cà phê việt!
+                                                                a(href="/src/pages/origin.html") Thương Hiệu bắt nguồn từ cà phê việt!
                                                             .bannerMenu__img 
-                                                                a(href="#").bannerMenu__image
+                                                                a(href="/src/pages/origin.html").bannerMenu__image
                                                                     img(src="/src/img/menu2.png", alt="")

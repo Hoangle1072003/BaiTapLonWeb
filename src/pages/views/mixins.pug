@@ -77,3 +77,27 @@ mixin aboutUS(title,desc,cap,url,btn,urlIMG,image,note)
             .about__img--images
                 a(href= urlIMG) 
                     img(src= image, alt= note)
+mixin global(imgBanner,note,title,desc,text1,text2,slogan,hrefSlide1,imgSlide1,noteSlide1,titleSlide1,hrefSlide2,imgSlide2,noteSlide2,titleSlide2)
+    .global__banner
+        .img 
+            img(src= imgBanner, alt= note)
+    .container 
+        .global__row
+            .global__content
+                .global__heading 
+                    h1= title 
+                .global__desc 
+                    h4= desc
+                .global__text
+                    p= text1
+                    p= text2 
+                .global__slogan 
+                    h1= slogan
+            .global__Sliderbar
+                .global__BannerSliderbar
+                    a(href= hrefSlide1)
+                        img(src= imgSlide1, alt= noteSlide1)
+                        span= titleSlide1
+                    a(href= hrefSlide2)
+                        img(src= imgSlide2, alt= noteSlide2) 
+                        span= titleSlide2
