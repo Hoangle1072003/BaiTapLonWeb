@@ -1,3 +1,49 @@
+// const menu =[
+//   {
+//       id:1,
+//       img: "/src/img/new2.jpg",
+//       title: `VỊ COOL SẢNG KHOÁI, TRÀ DƯA HẤU VẢI`,
+//       date: "17/03/2023, 18:42",
+//       icon:"uil uil-calender"
+//   },
+//   {
+//     id:2,
+//     img: "/src/img/new1.png",
+//     title: `MẠNH MẼ LÀM ĐIỀU MÌNH YÊU!`,
+//     date: "06/03/2023, 08:21",
+//     icon:"uil uil-calender"
+//   },
+//   {
+//     id:3,
+//     img: "/src/img/new3.jpg",
+//     title: `HẸN YÊU TẠI HIGHLANDS - SAU VALENTINE VẪN CÒN CHỖ ĐỂ TA GẶP NHAU!`,
+//     date: "20/02/2023, 23:02",
+//     icon:"uil uil-calender"
+//   },
+// ]
+// const boxList = document.querySelector('.box__list')
+
+// window.addEventListener("DOMContentLoaded",function(){
+//   let displayMenu = menu.map(function(item){
+//     return ` <div class="box__item"> 
+//     <div class="box__item--img"> <a href="#"> <img src=${item.img} alt=${item.title}/></a></div>
+//     <div class="box__item--bot"> 
+//       <div class="box__item--title"> <a href="#">
+//           <h1>${item.title}</h1></a></div>
+//       <div class="box__item--date"> 
+//         <div class="box__item--icon">
+//            <i class=${item.icon}></i></div>
+//         <div class="box__item--newdate"> 
+//           <h1>${item.date}</h1>
+//         </div>
+//       </div>
+//     </div>
+//   </div>`
+//   })
+//   displayMenu= displayMenu.join("")
+//   boxList.innerHTML= displayMenu;
+// })
+
 const navLink = document.querySelectorAll('.menu-link')
 const windowPathName  = window.location.pathname
 navLink.forEach(navLinks =>{
@@ -89,14 +135,5 @@ window.addEventListener('beforeunload', (event) => {
     showSlides(slideIndex = n);
   }
 
-
-
-
-
-  const select = document.querySelector('.new__heading')
-  function change() {
-      select.style.color ='#fff'
-  }
-  select.addEventListener('mouseover',change)
 
 

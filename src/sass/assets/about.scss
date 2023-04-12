@@ -9,8 +9,7 @@
         // flex-direction: column;
     }
     &__row:nth-child(2){
-        flex-direction: row-reverse;
-        background-color: $color-yellow;
+       
     }
     &__img{
         width: 100%;
@@ -86,4 +85,78 @@
     }
 
 }
+.child2{
+    flex-direction: row-reverse;
+    background-color: #bd945d;
+}
+.child2-img,.child3-img{
+    width: 100%;
+    max-width: 50%;
+    position: relative;
+    width: 50%;
+   
+}
+.child2-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: -moz-linear-gradient(left, rgba(255,255,255,0) -1%, rgba(255,255,255,0) 0%, rgba(222,201,173,0) 50%, rgba(192,152,100,1) 95%, rgba(189,148,93,1) 99%);
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) -1%,rgba(255,255,255,0) 0%,rgba(222,201,173,0) 50%,rgba(192,152,100,1) 95%,rgba(189,148,93,1) 99%);
+    background: linear-gradient(to right, rgba(255,255,255,0) -1%,rgba(255,255,255,0) 0%,rgba(222,201,173,0) 50%,rgba(192,152,100,1) 95%,rgba(189,148,93,1) 99%);
+    z-index: 1;
+    pointer-events: none;
+}
+.child3-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: -moz-linear-gradient(left, rgba(142,90,45,1) 0%, rgba(194,166,142,0) 46%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(left, rgba(142,90,45,1) 0%,rgba(194,166,142,0) 46%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right, rgba(142,90,45,1) 0%,rgba(194,166,142,0) 46%,rgba(255,255,255,0) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+.child3
+{
+    background-color: $color-text-cam;
+}
+.child2-text h1,.child2-desc h1{
+    color: $color-white !important;
+} 
+.child2-text h1:hover,.child2-desc h1:hover{
+    color: $color-yellow !important; 
+} 
+.child2-text{
+    min-width: 500px;
+}
+.child2-btn {
+    a{
+        background-color: #bd945d;
+        color: $color-white;
+        border-color: $color-white;
+        &:hover{
+            background-color: $color-white;
+            color: $color-sepia;
+            border-color: $color-white;
+        }
+    }
+}
+.btn{
+    a{
 
+        background-color: $color-text-cam !important;
+        color: $color-white !important;
+        border-color: $color-white;
+        &:hover{
+            background-color: $color-white !important;
+            color: $color-sepia !important;
+            border-color: $color-white !important;
+        }
+    }
+}

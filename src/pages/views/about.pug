@@ -1,5 +1,51 @@
 section.about#about 
     .about__container 
-        +aboutUS('NGUỒN GỐC','CÂU CHUYỆN NÀY LÀ CỦA CHÚNG MÌNH','Ngay từ những ngày đầu tiên, mục tiêu của chúng mình là có thể phục vụ và góp phần phát triển cộng đồng bằng cách siết chặt thêm sự kết nối và sự gắn bó giữa người với người.','#','Xem Chi Tiết','#','/src/img/about1.jpg','about')
-        +aboutUS('DỊCH VỤ','DỊCH VỤ NÀY LÀ CỦA CHÚNG MÌNH','Highlands Coffee® là không gian của chúng mình nên mọi thứ ở đây đều vì sự thoải mái của chúng mình. ','#','Xem Chi Tiết','#','/src/img/about2.jpg','about')
-        +aboutUS('NGHỀ NGHIỆP','CƠ HỘI NÀY LÀ CỦA CHÚNG MÌNH','Là điểm hội tụ của cộng đồng, Highlands Coffee® luôn tìm kiếm những thành viên mới với mong muốn không ngừng hoàn thiện một không gian dành cho tất cả mọi người. ','#','Xem Chi Tiết','#','/src/img/about3.jpg','about')
+        .about__row
+            .about__caption 
+                .about__caption--content 
+                    .about__caption--heading 
+                        h1 NGUỒN GỐC
+                .about__caption--desc 
+                    h1  CÂU CHUYỆN NÀY LÀ CỦA CHÚNG MÌNH
+                .about__caption--cap 
+                    p Ngay từ những ngày đầu tiên, mục tiêu của chúng mình là có thể phục vụ và góp phần phát triển cộng đồng bằng cách siết chặt thêm sự kết nối và sự gắn bó giữa người với người.
+                .about__caption--btn 
+                    a(href="#") Xem Chi Tiết
+            .about__img
+                .about__img--images
+                    a(href ="#") 
+                        img(src="/src/img/about1.jpg", alt= "")
+        .about__row.child2
+            .about__caption 
+                .about__caption--content 
+                    .about__caption--heading.child2-text 
+                        h1 DỊCH VỤ
+                .about__caption--desc.child2-desc 
+                    h1 DỊCH VỤ NÀY LÀ CỦA CHÚNG MÌNH
+                .about__caption--cap 
+                    p Highlands Coffee® là không gian của chúng mình nên mọi thứ ở đây đều vì sự thoải mái của chúng mình.
+                .about__caption--btn.child2-btn
+                    a(href="#") Xem Chi Tiết
+            .about__img.child2-img
+                .about__img--images
+                    a(href ="#") 
+                        img(src="/src/img/about2.jpg", alt= "")
+        .about__row.child3
+            .about__caption 
+                .about__caption--content 
+                    .about__caption--heading.child2-text 
+                        h1 NGHỀ NGHIỆP
+                .about__caption--desc.child2-text 
+                    h1 CƠ HỘI NÀY LÀ CỦA CHÚNG MÌNH
+                .about__caption--cap 
+                    p Là điểm hội tụ của cộng đồng, Highlands Coffee® luôn tìm kiếm những thành viên mới với mong muốn không ngừng hoàn thiện một không gian dành cho tất cả mọi người.
+                .about__caption--btn.child2-btn.btn 
+                    a(href="#") Xem Chi Tiết
+            .about__img.child3-img
+                .about__img--images
+                    a(href ="#") 
+                        img(src="/src/img/about3.jpg", alt= "")
+        
+        //- +aboutUS('NGUỒN GỐC','CÂU CHUYỆN NÀY LÀ CỦA CHÚNG MÌNH','Ngay từ những ngày đầu tiên, mục tiêu của chúng mình là có thể phục vụ và góp phần phát triển cộng đồng bằng cách siết chặt thêm sự kết nối và sự gắn bó giữa người với người.','#','Xem Chi Tiết','#','/src/img/about1.jpg','about')
+        //- +aboutUS('DỊCH VỤ','DỊCH VỤ NÀY LÀ CỦA CHÚNG MÌNH','Highlands Coffee® là không gian của chúng mình nên mọi thứ ở đây đều vì sự thoải mái của chúng mình. ','#','Xem Chi Tiết','#','/src/img/about2.jpg','about')
+        //- +aboutUS('NGHỀ NGHIỆP','CƠ HỘI NÀY LÀ CỦA CHÚNG MÌNH','Là điểm hội tụ của cộng đồng, Highlands Coffee® luôn tìm kiếm những thành viên mới với mong muốn không ngừng hoàn thiện một không gian dành cho tất cả mọi người. ','#','Xem Chi Tiết','#','/src/img/about3.jpg','about')
