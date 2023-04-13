@@ -1,0 +1,62 @@
+.orderdetail__container{
+    max-width: 1000px;
+}
+.oderdetail{
+    margin: 5rem 0 10rem 0;
+    &__heading {
+        h1{
+            color: $color-brown;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            line-height: 1.7;
+        }
+    }
+    &__row{
+        display: flex;
+        gap: 3rem
+        ;
+    }
+    &__img{
+        flex: 1 0 10%;
+        border: .1rem solid $color-text__yellow;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        img{
+            max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+    }
+    &__content {
+        flex: 1 0 50%;
+        &--text{
+            p{
+                font-size: .8rem;
+                font-weight: 500;
+                line-height: 1.6;
+                letter-spacing: .02rem;
+                color: $color-brown;
+            }
+        }
+        &--btn{
+            margin: 2rem 0 5rem 0;
+            a{
+                color: $color-white;
+                background-color: $color-danger;
+                padding: 1rem 2rem;
+                border-radius: 4px;
+                text-transform: uppercase;
+                font-size: 1.2rem;
+                font-weight: 600;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+            }
+        }
+        &--price{
+          span{
+            color: $color-brown;
+            font-weight: 600;
+          }
+    }
+}
+}

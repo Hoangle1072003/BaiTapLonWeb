@@ -1,248 +1,242 @@
 [
     {
         "caphe":[
-            {
-                "id":"01",
-                "url":"#",
-                "img":"/src/img/caphe1.jpg",
-                "title":"PhinDi Hạnh Nhân",
-                "price": "45,000VND"
-            },
-            {
-                "id":"02",
-                "url":"#",
-                "img":"/src/img/caphe2.jpg",
-                "title":"PhinDi Kem Sữa",
-                "price": "45,000VND"
-            },
-            {
-                "id":"03",
-                "url":"#",
-                "img":"/src/img/caphe3.jpg",
-                "title":"Bạc Xỉu Đá",
-                "price": "23,000VND"
-            },
-            {
-                "id":"04",
-                "url":"#",
-                "img":"/src/img/caphe4.jpg",
-                "title":"Caramel Macchiato",
-                "price": "69,000VND"
-            },
-            {
-                "id":"05",
-                "url":"#",
-                "img":"/src/img/caphe5.jpg",
-                "title":"Mocha Macchiato",
-                "price": "69,000VND"
-            },
-            {
-                "id":"06",
-                "url":"#",
-                "img":"/src/img/caphe6.jpg",
-                "title":"Latte",
-                "price": "69,000VND"
-            },
-            {
-                "id":"07",
-                "url":"#",
-                "img":"/src/img/caphe7.jpg",
-                "title":"Americano",
-                "price": "59,000VND"
-            }
+            {"id":"01","url":"#","img":"/src/img/caphe1.jpg","title":"PhinDi Hạnh Nhân","price": "45,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"02","url":"#","img":"/src/img/caphe2.jpg","title":"PhinDi Kem Sữa","price": "45,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"03","url":"#","img":"/src/img/caphe3.jpg","title":"Bạc Xỉu Đá","price": "23,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"04","url":"#","img":"/src/img/caphe4.jpg","title":"Caramel Macchiato","price": "69,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"05","url":"#","img":"/src/img/caphe5.jpg","title":"Mocha Macchiato","price": "69,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"06","url":"#","img":"/src/img/caphe6.jpg","title":"Latte","price": "69,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"07","url":"#","img":"/src/img/caphe7.jpg","title":"Americano","price": "59,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"}
         ]
     },
     {
         "tra":[
-            {
-                "id":"01",
-                "url":"#",
-                "img":"/src/img/tra1.jpg",
-                "title":"Trà Sen Vàng (Sen)",
-                "price": "55,000VND"
-            },
-            {
-                "id":"02",
-                "url":"#",
-                "img":"/src/img/tra2.jpg",
-                "title":"Trà Ổi Hồng",
-                "price": "55,000VND"
-            },
-            {
-                "id":"03",
-                "url":"#",
-                "img":"/src/img/tra3.jpg",
-                "title":"Trà Xanh Đậu Đỏ",
-                "price": "55,000VND"
-            },
-            {
-                "id":"04",
-                "url":"#",
-                "img":"/src/img/tra4.png",
-                "title":"Trà Thạch Vải",
-                "price": "45,000VND"
-            },
-            {
-                "id":"05",
-                "url":"#",
-                "img":"/src/img/tra5.jpg",
-                "title":"Trà Thạch Đào",
-                "price": "55,000VND"
-            },
-            {
-                "id":"06",
-                "url":"#",
-                "img":"/src/img/tra6.jpg",
-                "title":"Trà Xoài Nhiệt Đới",
-                "price": "35,000VND"
-            },
-            {
-                "id":"07",
-                "url":"#",
-                "img":"/src/img/tra7.jpg",
-                "title":"Trà Mơ Sơ Ri",
-                "price": "55,000VND"
-            },
-            {
-                "id":"08",
-                "url":"#",
-                "img":"/src/img/tra8.jpg",
-                "title":"Trà Ổi Hồng",
-                "price": "55,000VND"
-            },
-            {
-                "id":"09",
-                "url":"#",
-                "img":"/src/img/tra9.png",
-                "title":"Trà Xanh Đậu Đỏ",
-                "price": "45,000VND"
-            }
+            {"id":"01","url":"#","img":"/src/img/tra1.jpg","title":"Trà Sen Vàng (Sen)","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"02","url":"#","img":"/src/img/tra2.jpg","title":"Trà Ổi Hồng","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"03","url":"#","img":"/src/img/tra3.jpg","title":"Trà Xanh Đậu Đỏ","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"04","url":"#","img":"/src/img/tra4.png","title":"Trà Thạch Vải","price": "45,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"05","url":"#","img":"/src/img/tra5.jpg","title":"Trà Thạch Đào","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"06","url":"#","img":"/src/img/tra6.jpg","title":"Trà Xoài Nhiệt Đới","price": "35,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"07","url":"#","img":"/src/img/tra7.jpg","title":"Trà Mơ Sơ Ri","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"08","url":"#","img":"/src/img/tra8.jpg","title":"Trà Ổi Hồng","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"09","url":"#","img":"/src/img/tra9.png","title":"Trà Xanh Đậu Đỏ","price": "45,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"}
         ]
     },
     {
         "freeze":[
-            {
-                "id":"01",
-                "url":"#",
-                "img":"/src/img/f1.jpg",
-                "title":"Classic Phin Freeze",
-                "price": "55,000VND"
-            },
-            {
-                "id":"02",
-                "url":"#",
-                "img":"/src/img/f2.png",
-                "title":"Freeze Trà Xanh",
-                "price": "55,000VND"
-            },
-            {
-                "id":"03",
-                "url":"#",
-                "img":"/src/img/f3.jpg",
-                "title":"Cookies & Cream",
-                "price": "55,000VND"
-            },
-            {
-                "id":"04",
-                "url":"#",
-                "img":"/src/img/f4.jpg",
-                "title":"Freeze Sô-cô-la",
-                "price": "45,000VND"
-            },
-            {
-                "id":"05",
-                "url":"#",
-                "img":"/src/img/f5.jpg",
-                "title":"Caramel Phin Freeze",
-                "price": "55,000VND"
-            },
-            {
-                "id":"06",
-                "url":"#",
-                "img":"/src/img/f6.jpg",
-                "title":"Classic Phin Freeze",
-                "price": "55,000VND"
-            },
-            {
-                "id":"07",
-                "url":"#",
-                "img":"/src/img/f7.jpg",
-                "title":"Freeze Sô-cô-la",
-                "price": "53,000VND"
-            },
-            {
-                "id":"08",
-                "url":"#",
-                "img":"/src/img/f8.png",
-                "title":"Caramel Phin Freeze",
-                "price": "55,000VND"
-            },
-            {
-                "id":"09",
-                "url":"#",
-                "img":"/src/img/f9.jpg",
-                "title":"Caramel Phin Freeze",
-                "price": "45,000VND"
-            }
+            {"id":"01","url":"#","img":"/src/img/f1.jpg","title":"Classic Phin Freeze","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"02","url":"#","img":"/src/img/f2.png","title":"Freeze Trà Xanh","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"03","url":"#","img":"/src/img/f3.jpg","title":"Cookies & Cream","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"04","url":"#","img":"/src/img/f4.jpg","title":"Freeze Sô-cô-la","price": "45,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"05","url":"#","img":"/src/img/f5.jpg","title":"Caramel Phin Freeze","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"06","url":"#","img":"/src/img/f6.jpg","title":"Classic Phin Freeze","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"07","url":"#","img":"/src/img/f7.jpg","title":"Freeze Sô-cô-la","price": "53,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"08","url":"#","img":"/src/img/f8.png","title":"Caramel Phin Freeze","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"09","url":"#","img":"/src/img/f9.jpg","title":"Caramel Phin Freeze","price": "45,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"}
         ]
     },
     {
         "Khac":[
+            {"id":"01","url":"#","img":"/src/img/k1.jpg","title":"Truyền thống 200gr","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"02","url":"#","img":"/src/img/k2.jpg","title":"Sành Điệu 200gr","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"03","url":"#","img":"/src/img/k3.jpg","title":"Moka 200gr","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"04","url":"#","img":"/src/img/k5.jpg","title":"Moka 200gr","price": "45,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"05","url":"#","img":"/src/img/k6.jpg","title":"Di sản 200gr","price": "45,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"06","url":"#","img":"/src/img/k7.jpg","title":"Culi 200gr","price": "55,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"07","url":"#","img":"/src/img/k8.jpg","title":"Truyền Thống 1KG","price": "65,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
+            {"id":"08","url":"#","img":"/src/img/k8.jpg","title":"Truyền thống 200gr","price": "105,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"}
+        ]
+    },
+    {
+        "news":[
             {
                 "id":"01",
                 "url":"#",
-                "img":"/src/img/k1.jpg",
-                "title":"Truyền thống 200gr",
-                "price": "55,000VND"
+                "img":"/src/img/new2.jpg",
+                "urlanh":"#",
+                "title":"VỊ COOL SẢNG KHOÁI, TRÀ DƯA HẤU VẢI",
+                "date":"17/03/2023, 18:42"
             },
             {
                 "id":"02",
                 "url":"#",
-                "img":"/src/img/k2.jpg",
-                "title":"Sành Điệu 200gr",
-                "price": "55,000VND"
+                "img":"/src/img/new1.png",
+                "urlanh":"#",
+                "title":"MẠNH MẼ LÀM ĐIỀU MÌNH YÊU!",
+                "date":"06/03/2023, 08:21"
             },
             {
+                
                 "id":"03",
                 "url":"#",
-                "img":"/src/img/k3.jpg",
-                "title":"Moka 200gr",
-                "price": "55,000VND"
+                "img":"/src/img/new3.jpg",
+                "urlanh":"#",
+                "title":"HẸN YÊU TẠI HIGHLANDS - SAU VALENTINE VẪN CÒN CHỖ ĐỂ TA GẶP NHAU!",
+                "date":"20/02/2023, 23:02"
             },
             {
                 "id":"04",
                 "url":"#",
-                "img":"/src/img/k5.jpg",
-                "title":"Moka 200gr",
-                "price": "45,000VND"
+                "img":"/src/img/new4.jpg",
+                "urlanh":"#",
+                "title":"APP NÀY LÀ CỦA CHÚNG MÌNH",
+                "date":"10/01/2023, 00:00"
             },
             {
                 "id":"05",
                 "url":"#",
-                "img":"/src/img/k6.jpg",
-                "title":"Di sản 200gr",
-                "price": "45,000VND"
+                "img":"/src/img/new5.jpg",
+                "urlanh":"#",
+                "title":"LỊCH HOẠT ĐỘNG TẾT NGUYÊN ĐÁN 2023 CỦA HIGHLANDS COFFEE TRÊN TOÀN QUỐC",
+                "date":"13/01/2023, 09:57"
             },
             {
                 "id":"06",
                 "url":"#",
-                "img":"/src/img/k7.jpg",
-                "title":"Culi 200gr",
-                "price": "55,000VND"
+                "img":"/src/img/new5.png",
+                "urlanh":"#",
+                "title":"ĐÓN TẾT NÀY THẬT KHÁC LẠ TẠI HIGHLANDS",
+                "date":"28/12/2022, 20:24"
             },
             {
                 "id":"07",
                 "url":"#",
-                "img":"/src/img/k8.jpg",
-                "title":"Truyền Thống 1KG",
-                "price": "65,000VND"
-            },
-            {
+                "img":"/src/img/new6.jpg",
+                "urlanh":"#",
+                "title":"LỊCH HOẠT ĐỘNG HIGHLANDS COFFEE TẾT NGUYÊN ĐÁN 2023 - MIỀN NAM",
+                "date":"13/01/2023, 10:34"
+            },{
                 "id":"08",
                 "url":"#",
-                "img":"/src/img/k8.jpg",
-                "title":"Truyền thống 200gr",
-                "price": "105,000VND"
+                "img":"/src/img/new7.jpg",
+                "urlanh":"#",
+                "title":"LỊCH HOẠT ĐỘNG HIGHLANDS COFFEE TẾT NGUYÊN ĐÁN 2023 - MIỀN BẮC",
+                "date":"13/01/2023, 12:26"
+            },
+            {
+                "id":"09",
+                "url":"#",
+                "img":"/src/img/new8.jpg",
+                "urlanh":"#",
+                "title":"LỊCH HOẠT ĐỘNG HIGHLANDS COFFEE TẾT NGUYÊN ĐÁN 2023 - MIỀN TRUNG",
+                "date":"13/01/2023, 12:24"
+            },
+            {
+                "id":"10",
+                "url":"#",
+                "img":"/src/img/new9.jpg",
+                "urlanh":"#",
+                "title":"BỎ TÚI THỜI GIAN BIỂU CỦA PHIÊN BẢN MỚI_HIGHLANDS COFFEE MOBILE APP",
+                "date":"18/12/2022, 10:23"
+            },
+            {
+                "id":"11",
+                "url":"#",
+                "img":"/src/img/new10.jpg",
+                "urlanh":"#",
+                "title":"HIGHLANDS COFFEE LÀ CỦA CHÚNG MÌNH!",
+                "date":"22/11/2022, 18:13"
+            },
+            {
+                "id":"12",
+                "url":"#",
+                "img":"/src/img/new11.jpg",
+                "urlanh":"#",
+                "title":"CHÚC MỪNG HIGHLANDS COFFEE 23 TUỔI",
+                "date":"01/11/2022, 12:04"
+            },
+            {
+                "id":"13",
+                "url":"#",
+                "img":"/src/img/new12.jpg",
+                "urlanh":"#",
+                "title":"TRÀ SEN VÀNG - Ô LONG THANH MÁT, SEN VÀNG NGỌT THƠM",
+                "date":"08/10/2022, 16:30"
+            },
+            {
+                "id":"14",
+                "url":"#",
+                "img":"/src/img/new13.jpg",
+                "urlanh":"#",
+                "title":"HÈ VUI PHƠI PHỚI CÙNG BỘ 3 TRÀ NHIỆT ĐỚI",
+                "date":"01/07/2022, 14:45"
+            },
+            {
+                "id":"15",
+                "url":"#",
+                "img":"/src/img/new14.jpg",
+                "urlanh":"#",
+                "title":"NOTICE OF PRICE ADJUSTMENT",
+                "date":"27/06/2022, 10:19"
+            },
+            {
+                "id":"16",
+                "url":"#",
+                "img":"/src/img/new16.png",
+                "urlanh":"#",
+                "title":"THÔNG BÁO ĐIỀU CHỈNH GIÁ",
+                "date":"27/06/2022, 10:15"
+            },
+            {
+                "id":"17",
+                "url":"#",
+                "img":"/src/img/new17.png",
+                "urlanh":"#",
+                "title":"MỆT CỠ NÀO CŨNG MƯỢT” CÙNG PHIN SỮA ĐÁ TỪ HIGHLANDS COFFEE",
+                "date":"07/04/2022, 17:07"
+            },
+            {
+                "id":"18",
+                "url":"#",
+                "img":"/src/img/new19.png",
+                "urlanh":"#",
+                "title":"ƯU ĐÃI KHI THANH TOÁN BẰNG MASTERCARD® CONTACTLESS TẠI HIGHLANDS COFFEE",
+                "date":"23/03/2022, 13:14"
+            },
+            {
+                "id":"18",
+                "url":"#",
+                "img":"/src/img/new1=20.png",
+                "urlanh":"#",
+                "title":"LỊCH HOẠT ĐỘNG TẾT NGUYÊN ĐÁN 2022 CỦA HIGHLANDS COFFEE TRÊN TOÀN QUỐC",
+                "date":"26/01/2022, 15:15"
+            },
+            {
+                "id":"18",
+                "url":"#",
+                "img":"/src/img/new21.jpg",
+                "urlanh":"#",
+                "title":"ĐIỀU KHOẢN VÀ ĐIỀU KIỆN ÁP DỤNG CỦA ỨNG DỤNG HIGHLANDS COFFEE",
+                "date":"23/11/2021, 20:49"
+            },
+            {
+                "id":"19",
+                "url":"#",
+                "img":"/src/img/new22.png",
+                "urlanh":"#",
+                "title":"HIGHLANDS CẬP NHẬT GIÁ BÁN THEO CHÍNH SÁCH THUẾ GTGT MỚI",
+                "date":"01/11/2021, 11:44"
+            }
+        ]
+    },
+    {
+        "oderdetail":[
+            {
+                "id":"01",
+                "title":"Trà Xanh",
+                "img":"/src/img/tra1.jpg",
+                "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ullam reprehenderit voluptatibus eos placeat, illum quasi quam similique dolor minima, soluta asperiores est non inventore tempora ipsa! Eum, reiciendis dolor?",
+                "url":"#",
+                "price":"69,000 VND"
+            },
+            {
+                "id":"02",
+                "title":"Trà oi",
+                "img":"/src/img/tra2.jpg",
+                "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ullam reprehenderit voluptatibus eos placeat, illum quasi quam similique dolor minima, soluta asperiores est non inventore tempora ipsa! Eum, reiciendis dolor?",
+                "url":"#",
+                "price":"69,000 VND"
             }
         ]
     }

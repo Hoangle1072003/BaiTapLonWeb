@@ -6,7 +6,7 @@ jQuery(document).ready(function($){
             $(".menucaphe__list").append(
                 `
                 <div class="menucaphe__item">
-              <div class="menucaphe__item--img"> <a href= ${products[i].url}> <img src= ${products[i].img} alt= ${products[i].title}/></a></div>
+              <div class="menucaphe__item--img"> <a href= "product-detail.html#${products[i].id}"> <img src= ${products[i].img} alt= ${products[i].title}/></a></div>
               <div class="menucaphe__item--name">
                 <div class="menucaphe__item--title"> 
                   <h1>${products[i].title}</h1>
@@ -25,7 +25,7 @@ jQuery(document).ready(function($){
             $(".tra").append(
                 `
                 <div class="menucaphe__item">
-              <div class="menucaphe__item--img"> <a href= ${tra[i].url}> <img src= ${tra[i].img} alt= ${tra[i].title}/></a></div>
+              <div class="menucaphe__item--img"> <a href="product-detail.html#${tra[i].id}"> <img src= ${tra[i].img} alt= ${tra[i].title}/></a></div>
               <div class="menucaphe__item--name">
                 <div class="menucaphe__item--title"> 
                   <h1>${tra[i].title}</h1>
@@ -44,7 +44,7 @@ jQuery(document).ready(function($){
             $(".freeze ").append(
                 `
                 <div class="menucaphe__item">
-              <div class="menucaphe__item--img"> <a href= ${freeze[i].url}> <img src= ${freeze[i].img} alt= ${freeze[i].title}/></a></div>
+              <div class="menucaphe__item--img"> <a href= "product-detail.html#${freeze[i].id}"> <img src= ${freeze[i].img} alt= ${freeze[i].title}/></a></div>
               <div class="menucaphe__item--name">
                 <div class="menucaphe__item--title"> 
                   <h1>${freeze[i].title}</h1>
@@ -57,13 +57,13 @@ jQuery(document).ready(function($){
                 `
             )
         }
-        //
+        // render
         let Khac = data[3].Khac;
         for(let i =0; i< Khac.length;i++){
             $(".khac").append(
                 `
                 <div class="menucaphe__item">
-              <div class="menucaphe__item--img"> <a href= ${Khac[i].url}> <img src= ${Khac[i].img} alt= ${Khac[i].title}/></a></div>
+              <div class="menucaphe__item--img"> <a href= "product-detail.html#${Khac[i].id}"> <img src= ${Khac[i].img} alt= ${Khac[i].title}/></a></div>
               <div class="menucaphe__item--name">
                 <div class="menucaphe__item--title"> 
                   <h1>${Khac[i].title}</h1>
@@ -76,6 +76,31 @@ jQuery(document).ready(function($){
                 `
             )
         }
+        //
+        let news = data[4].news;
+        for(let i =0; i< news.length;i++){
+            $(".box__list").append(
+                `
+                <div class="box__item"> 
+                <div class="box__item--img"> <a href=${news[i].url}> <img src= ${news[i].img} alt= ${news[i].title}/></a></div>
+                <div class="box__item--bot"> 
+                  <div class="box__item--title"> <a href= ${news[i].urlanh}>
+                      <h1>${news[i].title}</h1></a></div>
+                  <div class="box__item--date"> 
+                    <div class="box__item--icon">
+                       <i class="uil uil-calender"></i></div>
+                    <div class="box__item--newdate"> 
+                      <h1>${news[i].date}</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                `
+            )
+        }
+       
+
 
     })
     $('.global').slick({
@@ -85,3 +110,4 @@ jQuery(document).ready(function($){
       autoplaySpeed: 2000,
     });
 })
+
