@@ -26,9 +26,11 @@
     }
 }
 
-
-
-.menucaphe__list {
+.global{
+    // display: flex;
+    // flex-direction: column;
+}
+.menucaphe__list,.tra,.freeze,.khac {
 display: grid;
 justify-content: flex-start;
 grid-auto-columns: 30%;
@@ -48,6 +50,8 @@ text-align: center;
 // overflow-x: hidden;
 margin-bottom: 5rem;
 padding-bottom: 2rem;
+
+
 }
 .menucaphe__item::-webkit-scrollbar {
   display: none;

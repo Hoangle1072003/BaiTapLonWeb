@@ -184,3 +184,124 @@
         transform: translateY(0px);
     }
 }
+.show-links {
+    height: 0rem;
+  }
+.nav-toggle {
+    font-size: 1.5rem;
+    color: $color-white;
+    background: $color-danger;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+  .nav-toggle:hover {
+    transform: rotate(90deg);
+  }
+  .nav-toggle {
+    display: none;
+  }
+
+
+  @media screen and (max-width: 1023.98px) {
+    html{
+        font-size: 55%;
+    }
+    .header__menu--bottom{
+        display: none;
+    }
+    .nav-toggle {
+        display: block;
+        font-size: 3rem;
+    }
+    .header__menu--top-input{
+        display: none;
+    }
+    .menu-item{
+        
+        
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .mainbot{
+        &__row{
+            flex-direction: column;
+        }
+        &__left{
+            &--text-title{
+                text-align: left !important;
+                font-size: 5rem !important;
+            }
+            &--text-content{
+                font-size: 2.5rem !important;
+                font-weight: 600 !important;
+            }
+        }
+        &__right{
+            &--heading{
+                max-width: 800px !important;
+                &-title{
+                    h1{
+                        font-size: 3rem !important;
+                    }
+                }
+                &-see{
+                    a,i{
+                        font-size: 2.5rem !important;
+                        font-weight: 600;
+                    }
+                }
+            }
+            &--item{
+                gap: 2rem !important;
+            }
+            &--img{
+                img{
+                    width: 120px !important;
+                    height: auto !important;
+                }
+            }
+            &--text{
+                &-title{
+                    h1{
+                        font-size: 2rem !important;
+                    }
+                }
+                &-date{
+                    margin-top: 2rem !important;
+                    font-size: 2.5rem !important;
+                    font-weight: 600;
+                }
+            }
+            &--input{
+                input{
+                    font-size: 3rem !important;
+                    height: 50px !important;
+                    width: 550px !important;
+                }
+            }
+            &--btn{
+                padding: 1.3rem 3rem !important;
+                a,i{
+                    font-size: 3rem !important;
+                }
+            }
+        }
+    }
+    .footer__container{
+        flex-direction: column;
+        align-items: center;
+        font-size: 2.5rem !important;
+    }
+    .footer{
+        padding: 5rem 0 !important;
+        line-height: 1.6 !important;
+        &__linkFooter{
+            span,i{
+                font-size: 2.5rem !important;
+            }
+        }
+    }
+  }
+  

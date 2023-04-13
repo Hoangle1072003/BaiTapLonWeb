@@ -247,6 +247,104 @@ video {
     transform: translateY(0px);
   }
 }
+.show-links {
+  height: 0rem;
+}
+
+.nav-toggle {
+  font-size: 1.5rem;
+  color: #fff;
+  background: #b22830;
+  border-color: transparent;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.nav-toggle:hover {
+  transform: rotate(90deg);
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 1023.98px) {
+  html {
+    font-size: 55%;
+  }
+  .header__menu--bottom {
+    display: none;
+  }
+  .nav-toggle {
+    display: block;
+    font-size: 3rem;
+  }
+  .header__menu--top-input {
+    display: none;
+  }
+  .menu {
+    flex-direction: column;
+  }
+  .mainbot__row {
+    flex-direction: column;
+  }
+  .mainbot__left--text-title {
+    text-align: left !important;
+    font-size: 5rem !important;
+  }
+  .mainbot__left--text-content {
+    font-size: 2.5rem !important;
+    font-weight: 600 !important;
+  }
+  .mainbot__right--heading {
+    max-width: 800px !important;
+  }
+  .mainbot__right--heading-title h1 {
+    font-size: 3rem !important;
+  }
+  .mainbot__right--heading-see a, .mainbot__right--heading-see i {
+    font-size: 2.5rem !important;
+    font-weight: 600;
+  }
+  .mainbot__right--item {
+    gap: 2rem !important;
+  }
+  .mainbot__right--img img {
+    width: 120px !important;
+    height: auto !important;
+  }
+  .mainbot__right--text-title h1 {
+    font-size: 2rem !important;
+  }
+  .mainbot__right--text-date {
+    margin-top: 2rem !important;
+    font-size: 2.5rem !important;
+    font-weight: 600;
+  }
+  .mainbot__right--input input {
+    font-size: 3rem !important;
+    height: 50px !important;
+    width: 550px !important;
+  }
+  .mainbot__right--btn {
+    padding: 1.3rem 3rem !important;
+  }
+  .mainbot__right--btn a, .mainbot__right--btn i {
+    font-size: 3rem !important;
+  }
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem !important;
+  }
+  .footer {
+    padding: 5rem 0 !important;
+    line-height: 1.6 !important;
+  }
+  .footer__linkFooter span, .footer__linkFooter i {
+    font-size: 2.5rem !important;
+  }
+}
 .banner {
   position: relative;
 }
@@ -633,7 +731,7 @@ video {
   letter-spacing: 0.05;
 }
 
-.menucaphe__list {
+.menucaphe__list, .tra, .freeze, .khac {
   display: grid;
   justify-content: flex-start;
   grid-auto-columns: 30%;
