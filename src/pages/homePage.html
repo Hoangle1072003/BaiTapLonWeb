@@ -11,13 +11,14 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   </head>
   <body> 
     <div class="warrper">
       <section class="headerHomePage" id="header"> 
         <div class="container__headerHomePage">
           <div class="nav"> 
-            <div class="logo"> <img src="/src/img/Logo-HC-1024x780.png" alt="Trang chu"></div>
+            <div class="logo"><a href="/src/pages/homePage.html"> <img src="/src/img/Logo-HC-1024x780.png" alt="Trang chu"></a></div>
             <div class="menu__nav"> 
               <div class="menu__nav--link"> <a class="activeHome" href="#">Trang chủ</a><a href="#">Môi trường làm việc</a><a href="#">Phòng ban</a><a href="#">Việc làm</a></div>
               <div class="menu__nav--flag">
@@ -113,8 +114,97 @@
           </div>
         </div>
       </section>
+      <section class="aboutUs" id="aboutUS"> 
+        <div class="video"> 
+          <div class="aboutUs__title"> 
+            <h1>Về Chúng Tôi </h1>
+          </div>
+          <div class="aboutUs__video"> 
+            <iframe width="700" height="360" src="https://www.youtube.com/embed/UtIlpDqqwq0?autoplay=1&amp;mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="about__ct"> 
+          <div class="aboutUs__content"> 
+            <div class="aboutUs__content--title"> 
+              <h1>Hành trình hạnh phúc của chúng mình</h1>
+            </div>
+          </div>
+          <div class="aboutUs__content--number">
+            <article><span class="number" data-value="10000">0</span>
+              <p>Đồng nghiệp thân yêu</p>
+            </article>
+            <article> <span class="number" data-value="7">0</span>
+              <p>Đồng nghiệp thân yêu</p>
+            </article>
+            <article><span class="number" data-value="200000">0</span>
+              <p>Số ly thức uống phục vụ đến khách hàng mỗi ngày</p>
+            </article>
+            <article><span class="number" data-value="500">0</span>
+              <p>Số cửa hàng trải dài trên 64 tỉnh thành</p>
+            </article>
+          </div>
+        </div>
+        <div class="aboutUs__slider"> 
+          <div class="container"> 
+            <div class="aboutUs__slider--content"> 
+              <button class="next-btn">
+                 <i class="bi bi-chevron-right"></i></button>
+              <div class="rowABoutUs"> 
+                <div class="aboutUs__slider--text"> 
+                  <div class="aboutUs__slider--title"> 
+                    <h1 class="title">Môi trường làm việc của sự quan tâm</h1>
+                  </div>
+                  <div class="aboutUs__slider--desc"> 
+                    <p class="desc">Trong hơn 5 năm, Highlands đã tăng 39 bậc từ hạng 94 lên hạng 55, đây là cả một quá trình nỗ lực to lớn của chúng mình trong việc xây dựng văn hóa Quan tâm $ Hỗ trợ lẫn nhau. Tại Highlands, chúng mình được lắng nghe, trao quyền và đối xử như một thành viên trong gia đình. Đây là nơi làm việc lý tưởng mà mình tin bạn đang tìm kiếm.</p>
+                  </div>
+                </div>
+                <div class="aboutUs__slider--img"> <img class="image1" src="/src/img/slider1__HomePage.jpg" alt=""><img class="image2" src="/src/img/slider2_hoamePage.jpg" alt="">
+                  <button class="pre-btn">
+                     <i class="bi bi-chevron-left"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="aboutUs__learnAbout"> 
+          <div class="container__learnAbout"> 
+            <div class="learnABout__list"> 
+              <div class="learnAbout__item"> 
+                <div class="learnAbout__img"> <img src="/src/img/learnABout1.jpg" alt=""></div>
+                <div class="learnAbout__text"> 
+                  <div class="learnAbout__text--left"> 
+                    <div class="learnAbout__title"> 
+                      <h1>Cuộc sống tại Highlands</h1>
+                    </div>
+                    <div class="learnAbout__desc"> 
+                      <p>Thú vị, tràn ngập niềm vui & như là một gia đình</p>
+                    </div>
+                  </div>
+                  <div class="learnAbout__text--icon"> <a href="#">
+                       <i class="bi bi-arrow-right"></i></a></div>
+                </div>
+              </div>
+              <div class="learnAbout__item"> 
+                <div class="learnAbout__img"> <img src="/src/img/learnAbout2.jpg" alt=""></div>
+                <div class="learnAbout__text"> 
+                  <div class="learnAbout__text--left"> 
+                    <div class="learnAbout__title"> 
+                      <h1>Tìm hiểu các phòng ban</h1>
+                    </div>
+                    <div class="learnAbout__desc"> 
+                      <p>Khám phá các vị trí có thể phù hợp với bạn</p>
+                    </div>
+                  </div>
+                  <div class="learnAbout__text--icon"><a href="#">
+                       <i class="bi bi-arrow-right"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
-  <script src="/src/js/jquery-3.4.1.js"> </script><script src="https://unpkg.com/scrollreveal"></script>
-  <script src="/src/js/app.js"> </script>
+  <script src="/src/js/number.js"> </script>
+  <script src="/src/js/silder.js"> </script>
 </html>
