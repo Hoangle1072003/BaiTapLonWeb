@@ -1,0 +1,61 @@
+.conatainer__workBanner{
+    max-width: 1200px;
+    margin: 0 auto !important;
+    padding: 0 15px;
+}
+.work__banner{
+    background: url(/src/img/work1.jpg);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45%;
+    width: 80%;
+    position: absolute;
+    &--text{
+       position: absolute;
+       top: 50%;
+       left: 10%;
+       transform: translateY(-50%);
+       max-width: 300px;
+        h1{
+            color: $color-white;
+            font-weight: 600;
+            line-height: 1.6;
+            font-size: 2.473rem;
+        }
+    }
+}
+.work__content{
+    // position: relative;
+    margin-top: 26rem;
+    &--row {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    &--title{
+        max-width: 500px;
+        h1{
+            color: $color-sepia;
+            font-weight: 600;
+            line-height: 1.6;
+            font-size: 2rem;
+
+        }
+    }
+    &--desc{
+        max-width: 600px;
+        p{
+            color: $color-brown;
+            font-weight: 600;
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+    }
+    &--img{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+}
