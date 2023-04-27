@@ -1,0 +1,21 @@
+include ./views/mixins
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Trang Chủ - HighLands Careers
+        link(rel="shortcut icon", href="/src/img/Logo-HC-1024x780.png", type="image/x-icon")
+        link(rel="stylesheet", href="/src/css/app.css")
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css")  
+        link(rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css")
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css")
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+    body 
+        .warrper
+            include views/header_HomePage
+            include views/strategic
+    script(src="/src/js/jquery-3.4.1.js")  
+    <script src="https://unpkg.com/scrollreveal"></script>
+    script(src="/src/js/app.js") 

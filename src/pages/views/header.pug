@@ -19,9 +19,9 @@ section.header#header
                 .header__menu--bottom 
                     nav.header__menu--bottom-NAV
                        ul.menu 
-                            each val in [{href:"/",title:"Quán cà phê"},{href:"/src/pages/menu.html",title:"Thực đơn"},{href:"/src/pages/news.html",title:"Tin tức"},{href:"/src/pages/public.html",title:"Cộng Đồng"},{href:"/src/pages/aboutUS.html",title:"Về chúng tôi"},{href:"/",title:"Nghề nghiệp"},{href:"/",title:"Mua Ngay"}]
-                                li.menu-item
-                                    a(href=val.href).menu-link= val.title     
+                            each val in [{href:"/",title:"Quán cà phê"},{href:"/src/pages/menu.html",title:"Thực đơn"},{href:"/src/pages/news.html",title:"Tin tức"},{href:"/src/pages/public.html",title:"Cộng Đồng"},{href:"/src/pages/aboutUS.html",title:"Về chúng tôi"},{href:"/src/pages/homePage.html",target: "_blank",title:"Nghề nghiệp"},{href:"/",title:"Mua Ngay"}]
+                                li.menu-item 
+                                    +menuLink(val.href, val.title, "_blank")
                                     if(val.title=="Thực đơn")
                                         .menuMega
                                             .container 
