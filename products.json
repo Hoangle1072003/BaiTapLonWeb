@@ -1,5 +1,4 @@
 [
-    
     {
         "caphe":[
             {"id":"01","url":"#","img":"/src/img/caphe1.jpg","title":"PhinDi Hạnh Nhân","price": "45,000VND"},
@@ -316,6 +315,91 @@
                 "img": "/src/img/workitem7.jpg",
                 "title": "GIA ĐÌNH HIGHLANDS CÙNG CON ĐÓN HÈ",
                 "date": "22 Tháng Mười Một, 2022"
+            }
+        ]
+    },
+    {
+        "department":[
+            {
+                "id":1,
+                "title":"Cải Tiến Sản Phẩm",
+                "desc":"Cơ hội làm việc ở các vị trí hấp dẫn về kế hoạch & chiến lược cải tiến sản phẩm, quản lý và đổi mới các dòng sản phẩm của Highlands."
+            },
+            {
+                "id":2,
+                "title":"Chuỗi Cung Ứng",
+                "desc":"Tham gia vào đội ngũ quản lý chuỗi cung ứng toàn diện trên toàn bộ chuỗi giá trị, hình thức và khu vực, từ lập kế hoạch cung và cầu, mua sắm, sản xuất đến kho bãi và hậu cần."
+            },
+            {
+                "id":3,
+                "title":"Công Nghệ Thông Tin",
+                "desc":"Cung cấp các giải pháp công nghệ cho Hệ Thống Cửa Hàng và Văn Phòng tại Highlands."
+            },
+            {
+                "id":4,
+                "title":"Cửa Hàng Mới/Kiểm Soát/Hành Chính/Kỹ Thuật",
+                "desc":"Cơ hội đóng góp vào hành trình mở các cửa hàng mới, cung cấp hỗ trợ kỹ thuật cho hệ thống cửa hàng nhằm đảm bảo sử dụng các nguồn lực một cách hiệu quả, an toàn và tiết kiệm."
+            },
+            {
+                "id":5,
+                "title":"Đào Tạo",
+                "desc":"Lập kế hoạch và thực hiện các hoạt động học tập và phát triển đội ngũ Hệ Thống Cửa Hàng."
+            },
+            {
+                "id":6,
+                "title":"Giấy Phép & Tuân Thủ",
+                "desc":"Chúng mình hoan nghênh bạn tham gia nhóm Giấy phép & Tuân thủ, nơi cung cấp các tư vấn về pháp lý và giúp bảo đảm sự tuân thủ với các quy định của công ty và tính bền vững của doanh nghiệp."
+            },
+            {
+                "id":7,
+                "title":"Hệ Thống Cửa Hàng",
+                "desc":"Đồng hành với Hệ Thống Cửa Hàng, bạn sẽ cùng chúng mình mang đến cho khách hàng những trải nghiệm dịch vụ “Tận Tâm”, điều đã giúp cho Highlands dẫn đầu thị trường qua nhiều năm."
+            },
+            {
+                
+                "id":8,
+                "title":"Marketing",
+                "desc":"Hãy là một phần của đội ngũ năng động và sáng tạo để đưa Thương hiệu chuỗi cà phê hàng đầu Việt Nam lên một tầm cao mới thông qua các chương trình và sáng kiến thú vị về Xây dựng thương hiệu, Tiếp thị sản phẩm, Tiếp thị cửa hàng và Thương mại điện tử."
+            },
+            {
+                "id":9,
+                "title":"Nghiên Cứu Khách Hàng",
+                "desc":"Phát hiện các xu hướng và phân tích đa chiều giúp công ty tới gần khách hàng hơn, cũng như giúp đưa ra các quyết định dựa trên dữ liệu và chuyển đổi tổ chức."
+            },
+            {
+                "id":10,
+                "title":"Nhân Sự",
+                "desc":"Gia nhập vào một đội ngũ đa dạng và tận tâm, bạn sẽ cùng chúng mình hỗ trợ hơn 10.000 đồng nghiệp trở nên hạnh phúc & phát triển hơn qua những dự án Nhân Sự."
+            },
+            {
+                "id":11,
+                "title":"Nhượng quyền",
+                "desc":"Cơ hội tham gia mở rộng mạng lưới nhượng quyền cả trong nước và quốc tế, góp phần vào thành công chung của Highlands Coffee cũng như các đơn vị nhượng quyền."
+            },
+            {
+                "id":12,
+                "title":"Phát Triển Mạng Lưới",
+                "desc":"Hãy là một phần của đội ngũ vun đắp các cơ hội mở rộng mới, góp phần tăng cường sự hiện diện của Highlands Coffee trên toàn quốc và mang lại hạnh phúc cho nhiều cộng đồng hơn."
+            },
+            {
+                "id":13,
+                "title":"Quản Lý Chất Lượng",
+                "desc":"Hãy là một phần trong đội ngũ kiểm tra chất lượng sản phẩm và dịch vụ tại các cửa hàng, nhằm góp phần cải tiến chất lượng cũng như đảm bảo tuân thủ các tiêu chuẩn của công ty và các quy định bên ngoài."
+            },
+            {
+                "id":14,
+                "title":"Sản Xuất",
+                "desc":"Hãy tham gia đội ngũ tạo ra và đảm bảo các sản phẩm chất lượng tới tay người dùng thông qua sản xuất và phân phối."
+            },
+            {
+                "id":15,
+                "title":"Tài chính Kế toán",
+                "desc":"Hãy là một mảnh ghép giữ cho doanh nghiệp bền vững thông qua các giao dịch tài chính hàng ngày, lập kế hoạch vốn và hỗ trợ ra quyết định kinh doanh tối ưu."
+            },
+            {
+                "id":16,
+                "title":"Thiết Kế & Xây Dựng Cửa Hàng",
+                "desc":"Cơ hội để bạn mang đến trải nghiệm khách hàng tuyệt vời thông qua việc sáng tạo ý tưởng & thiết kế cửa hàng."
             }
         ]
     }
