@@ -1,0 +1,29 @@
+.department__container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.departmentDetail{
+    margin: 5rem 0;
+}
+.department__detail{
+    &--row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+    &--title{
+        flex : 1 0 30%;
+        h1{
+            font-size: 1.7rem;
+            font-weight: 600;
+            line-height: 1.6;
+        }
+    }
+    &--desc{
+        flex : 1 0 70%;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.6;
+    }
+}

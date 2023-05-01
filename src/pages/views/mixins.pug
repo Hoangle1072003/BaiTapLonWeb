@@ -118,3 +118,10 @@ mixin strategic(image,title,desc)
 mixin work__list(url)
     .work__item 
         img(src= url, alt="")
+mixin departmentBanner(title) 
+    .department__main 
+        .department__main--img 
+    .department__content 
+        .container__content 
+            .container__content--text 
+                h1= title
