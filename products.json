@@ -278,5 +278,45 @@
             {"id":"32","url":"#","img":"/src/img/k8.jpg","title":"Truyền Thống 1KG","price": "65,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"},
             {"id":"33","url":"#","img":"/src/img/k8.jpg","title":"Truyền thống 200gr","price": "105,000VND","title2":"Thức uống rất được ưa chuộng! Trà xanh thượng hạng từ cao nguyên Việt Nam, kết hợp cùng đá xay, thạch trà dai dai, thơm ngon và một lớp kem dày phủ lên trên vô cùng hấp dẫn. Freeze Trà Xanh thơm ngon, mát lạnh, chinh phục bất cứ ai!"}
         ]
+    },
+    {
+        "work":[
+            {
+                "id":1,
+                "img": "/src/img/workitem1.png",
+                "title": "TẠP CHÍ THÁNG 3 – CHUYÊN ĐỀ “PHÁI NỮ HIGHLANDS",
+                "date": "17 Tháng Ba, 2023"
+            },
+            {
+                "id":2,
+                "img": "/src/img/workitem2.jpg",
+                "title": "THƯ CẢM ƠN TỪ CHƯƠNG TRÌNH HIẾN MÁU NHÂN ĐẠO",
+                "date": "1 Tháng Ba, 2023"
+            },
+            {
+                "id":3,
+                "img": "/src/img/workitem3.png",
+                "title": "TẠP CHÍ TẾT 2023 – SỐ ĐẶC BIỆT",
+                "date": "17 Tháng Một, 2023"
+            },
+            {
+                "id":4,
+                "img": "/src/img/workitem4.jpg",
+                "title": "TÌM KIẾM TÀI NĂNG HIGHLANDS 2022",
+                "date": "22 Tháng Mười Một, 2022"
+            },
+            {
+                "id":5,
+                "img": "/src/img/workitem5.jpg",
+                "title": "MÙA HÈ TẬP SỰ 2022",
+                "date": "22 Tháng Mười Một, 2022"
+            },
+            {
+                "id":6,
+                "img": "/src/img/workitem7.jpg",
+                "title": "GIA ĐÌNH HIGHLANDS CÙNG CON ĐÓN HÈ",
+                "date": "22 Tháng Mười Một, 2022"
+            }
+        ]
     }
 ]
