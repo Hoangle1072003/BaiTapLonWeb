@@ -125,3 +125,12 @@ mixin departmentBanner(title)
         .container__content 
             .container__content--text 
                 h1= title
+mixin jobTitle(title)
+    .department__job--title 
+        h1= title
+mixin question(title,desc)
+    .department__job--question 
+        .department__job--question--title 
+            h1= title
+        .department__job--question--text 
+            p= desc

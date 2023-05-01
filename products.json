@@ -402,5 +402,45 @@
                 "desc":"Cơ hội để bạn mang đến trải nghiệm khách hàng tuyệt vời thông qua việc sáng tạo ý tưởng & thiết kế cửa hàng."
             }
         ]
+    },
+    {
+        "ungtuyen":[
+            {
+                "id": 1,
+                "title":"1. Highlands có quy định gì về điều kiện ứng tuyển?",
+                "desc":"Để tham gia ứng tuyển tại Highlands, ứng viên cần đủ 18 tuổi và tốt nghiệp Trung học Phổ thông trở lên."
+            },
+            {
+                "id": 2,
+                "title":"2. Mình có thể ứng tuyển vào Highlands qua những kênh nào?",
+                "desc":"Để tìm hiểu về các cơ hội việc làm và ứng tuyển vào Highlands, các bạn có thể truy cập vào các đường link sau: Đối với khối vận hành cửa hàng: http://ungtuyen.highlandscoffee.com.vn Đối với khối văn phòng: http://vticareers.talentnetwork.vn"
+            },
+            {
+                "id": 3,
+                "title":"3. Mình có thể đăng ký giờ làm việc linh hoạt như thế nào?",
+                "desc":"Về ca làm việc, mình sẽ trao đổi trực tiếp với Trưởng Cửa Hàng. Highlands luôn nỗ lực tạo sự linh hoạt về giờ giấc làm việc cho các bạn chỉ cần bạn đảm bảo có thể làm việc tối thiểu 4 tiếng/ca."
+            },
+            {
+                "id": 4,
+                "title":"4. Mình chưa có kinh nghiệm thì có thể tham gia ứng tuyển được không?",
+                "desc":"Highlands hoan nghênh các bạn chưa có kinh nghiệm làm việc gia nhập vào Highlands Coffee. Các bạn sẽ được đào tạo bài bản và bắt đầu từ những vị trí phù hợp."
+            },
+            {
+                "id": 5,
+                "title":"5. Làm sao để biết cửa hàng/khu vực nào đang tuyển dụng?",
+                "desc":"Highlands đã có hơn 500 cửa hàng trên toàn quốc và đang mở cửa hàng mới mỗi tuần. Vì vậy, các bạn có thể ứng tuyển tại trang: http://ungtuyen.highlandscoffee.com.vn, Highlands sẽ liên hệ và ưu tiên sắp xếp khu vực thuận tiện nhất cho mình."
+            },
+            {
+                "id": 6,
+                "title":"6. Highlands có thu phí tuyển dụng không?",
+                "desc":"Highlands KHÔNG thu phí tuyển dụng dưới mọi hình thức. Thời gian gần đây có rất nhiều đối tượng giả mạo nhân viên Highlands để lừa đảo phí tuyển dụng."
+            },
+            {
+                "id": 7,
+                "title":"7. Tôi là nhân viên cũ, tôi muốn quay lại làm việc thì phải làm như thế nào ?",
+                "desc":"Tại Highlands Coffee, chúng tôi luôn chào đón các thành viên cũ quay trở lại. Bạn có thể ứng tuyển theo đường link phù hợp bên dưới."
+            }
+            
+        ]
     }
 ]
