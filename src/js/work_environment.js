@@ -14,5 +14,21 @@ jQuery(document).ready(function($){
                 `
             )
         }
+
+
+        let workList = data[8].department
+        for(let i=0;i<workList.length;i++){
+            $(".department__list").append(
+                `<div class="department__item"> <a href="#"> 
+                <div class="department__item--title"> 
+                  <h1>${workList[i].title}</h1>
+                </div>
+                <div class="department__item--desc"> 
+                  <p>${workList[i].desc}</p>
+                </div></a></div>
+                `
+
+            )
+        }
     })
 })
